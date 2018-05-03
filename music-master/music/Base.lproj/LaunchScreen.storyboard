@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="x9T-c4-AHw"/>
+                        <viewControllerLayoutGuide type="bottom" id="xen-Fy-YlX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ES1-id-dqV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zpb-vS-BNr">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="JDo-yb-MGY">
+                                <rect key="frame" x="79" y="429" width="200" height="200"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="zpb-vS-BNr" firstAttribute="top" secondItem="x9T-c4-AHw" secondAttribute="bottom" id="53d-gh-byT"/>
+                            <constraint firstItem="JDo-yb-MGY" firstAttribute="leading" secondItem="ES1-id-dqV" secondAttribute="leadingMargin" constant="63" id="H2v-zx-7AO"/>
+                            <constraint firstItem="JDo-yb-MGY" firstAttribute="top" secondItem="x9T-c4-AHw" secondAttribute="bottom" constant="409" id="Tgf-eW-xVu"/>
+                            <constraint firstAttribute="trailing" secondItem="zpb-vS-BNr" secondAttribute="trailing" id="Wzs-B9-1rK"/>
+                            <constraint firstItem="zpb-vS-BNr" firstAttribute="leading" secondItem="ES1-id-dqV" secondAttribute="leading" id="X5P-rp-K7G"/>
+                            <constraint firstItem="xen-Fy-YlX" firstAttribute="top" secondItem="JDo-yb-MGY" secondAttribute="bottom" constant="38" id="hyv-IM-LjD"/>
+                            <constraint firstItem="JDo-yb-MGY" firstAttribute="centerX" secondItem="zpb-vS-BNr" secondAttribute="centerX" constant="-8.5" id="tXP-fB-FXt"/>
+                            <constraint firstItem="zpb-vS-BNr" firstAttribute="bottom" secondItem="xen-Fy-YlX" secondAttribute="top" id="uJZ-Eh-zdE"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-194.40000000000001" y="366.56671664167919"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launch.jpg" width="1242" height="2208"/>
+        <image name="logo.png" width="1024" height="1024"/>
+    </resources>
+</document>
